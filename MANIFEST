@@ -1,0 +1,6 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/CSS/Adaptor/Whitelist.pm
+t/01-filter.t

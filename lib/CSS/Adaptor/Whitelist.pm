@@ -4,7 +4,7 @@ use strict;
 use CSS::Adaptor;
 use parent 'CSS::Adaptor';
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 sub log {
     my ($self, $msg) = @_;
@@ -451,3 +451,16 @@ You are encouraged to override or redefine this method to treat the log
 messages in accordance with your logging habits.
 
 =back
+
+=head1 AUTHOR
+
+Oldrich Kruza E<lt>sixtease@cpan.orgE<gt>
+
+http://www.sixtease.net/
+
+=head1 COPYRIGHT
+
+Copyright (c) 2009 Oldrich Kruza. All rights reserved.
+
+This module is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.

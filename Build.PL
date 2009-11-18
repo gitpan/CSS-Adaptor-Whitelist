@@ -9,6 +9,7 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/CSS/Adaptor/Whitelist.pm',
     build_requires => {
         'Test::More' => 0,
+        'CSS' => 0,
     },
     add_to_cleanup      => [ 'CSS-Adaptor-Whitelist-*' ],
     create_makefile_pl => 'traditional',
